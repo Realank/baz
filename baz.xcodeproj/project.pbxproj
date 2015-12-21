@@ -16,6 +16,7 @@
 		8C2C034E1C23A90600D2BE5A /* bazTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C034D1C23A90600D2BE5A /* bazTests.m */; };
 		8C2C03591C23A90600D2BE5A /* bazUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C03581C23A90600D2BE5A /* bazUITests.m */; };
 		8C2C03681C23B02D00D2BE5A /* iForeLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C03671C23B02D00D2BE5A /* iForeLoadingView.m */; };
+		8CB926681C2796F700D95DAB /* iForeLoadingView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB926671C2796F700D95DAB /* iForeLoadingView2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		8C2C035A1C23A90600D2BE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C2C03661C23B02D00D2BE5A /* iForeLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iForeLoadingView.h; sourceTree = "<group>"; };
 		8C2C03671C23B02D00D2BE5A /* iForeLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iForeLoadingView.m; sourceTree = "<group>"; };
+		8CB926661C2796F700D95DAB /* iForeLoadingView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iForeLoadingView2.h; sourceTree = "<group>"; };
+		8CB926671C2796F700D95DAB /* iForeLoadingView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iForeLoadingView2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				8C2C03411C23A90600D2BE5A /* LaunchScreen.storyboard */,
 				8C2C03441C23A90600D2BE5A /* Info.plist */,
 				8C2C03331C23A90600D2BE5A /* Supporting Files */,
+				8CB926661C2796F700D95DAB /* iForeLoadingView2.h */,
+				8CB926671C2796F700D95DAB /* iForeLoadingView2.m */,
 			);
 			path = baz;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				8C2C033B1C23A90600D2BE5A /* ViewController.m in Sources */,
 				8C2C03381C23A90600D2BE5A /* AppDelegate.m in Sources */,
 				8C2C03351C23A90600D2BE5A /* main.m in Sources */,
+				8CB926681C2796F700D95DAB /* iForeLoadingView2.m in Sources */,
 				8C2C03681C23B02D00D2BE5A /* iForeLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +508,7 @@
 				8C2C035F1C23A90600D2BE5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C2C03601C23A90600D2BE5A /* Build configuration list for PBXNativeTarget "bazTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				8C2C03621C23A90600D2BE5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C2C03631C23A90600D2BE5A /* Build configuration list for PBXNativeTarget "bazUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				8C2C03651C23A90600D2BE5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

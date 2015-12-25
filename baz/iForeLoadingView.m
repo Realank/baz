@@ -8,7 +8,7 @@
 
 #import "iForeLoadingView.h"
 #define VIEW_SIZE 110.0
-#define ANIM_DURATION 0.8
+#define ANIM_DURATION 5
 #define ROUND_R 47.0
 #define CIRCLE_ANGLE (1.5*M_PI)
 

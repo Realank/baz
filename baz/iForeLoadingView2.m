@@ -131,7 +131,7 @@ typedef NS_ENUM(NSInteger, StepSection) {
     self.startAngle = 0;
     self.endAngle = CIRCLE_MIN_ANGLE;
     CADisplayLink *link = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateLayout)];
-    [link addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
+    [link addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
     self.link = link;
     
 }

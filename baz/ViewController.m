@@ -13,7 +13,7 @@
 #define ScreenHeigh    [UIScreen mainScreen].bounds.size.height
 
 @interface ViewController ()
-@property (nonatomic,weak) iForeLoadingView2 *loadingView;
+@property (nonatomic,weak) iForeLoadingView *loadingView;
 @end
 
 @implementation ViewController
@@ -28,7 +28,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     static BOOL animate = NO;
     if (!animate) {
-        iForeLoadingView2 *loading = [[iForeLoadingView2 alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
+        iForeLoadingView *loading = [[iForeLoadingView alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
         loading.center = CGPointMake(ScreenWidth/2, ScreenHeigh/2-64);
         [self.view addSubview:loading];
         loading.lineColor = [UIColor lightGrayColor];
